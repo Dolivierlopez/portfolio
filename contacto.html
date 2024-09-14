@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Portfolio</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-mi.html">Sobre Mí</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="curriculum.html">Currículum</a></li>
+                <li> <a href="contacto.html">Contacto</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <!-- COMIENZA MAIN -->
+    <main>
+        <section class="contacto-caja">
+            <h1>Contacto</h1>
+            <div class="contacto-div">
+                <h2>Formulario de Contacto</h2>
+                <form action="mailto:dolivierlopez@uade.edu.ar" method="post" >
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="contacto-detalles">
+                <h2>Datos de Contacto</h2>
+                <p><strong>Email:</strong> dolivierlopez@uade.edu.ar</p>
+                <p><strong>Teléfono:</strong> +123456789</p>
+                <p><strong>Dirección:</strong> Buenos Aires, CABA</p>
+            </div>
+        </section>
+    </main>
+        <!-- COMIENZA FOOTER -->
+        <footer class="footer">
+            <a href="https://wa.me/112596" target="_blank"><img src="./icons/whatsapp_733585.png" class="img-footer" alt="WhatsApp"></a>
+            <a href="https://www.instagram.com/dolivier08/" target="_blank"><img src="./icons/instagram_2111463.png" class="img-footer" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/danieloliv/" target="_blank"><img src="./icons/linkedin_3536569.png" class="img-footer" alt="LinkedIn"></a>
+            <a href="https://github.com/Dolivierlopez" target="_blank"><img src="./icons/github_3291695.png" class="img-footer" alt="GitHub"></a>
+            
+        </footer>
+</body>
+</html>
